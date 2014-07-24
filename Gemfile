@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 group :default do
-  gem 'pg'
+  gem 'sqlite3'
   gem 'rails', '3.2.18'
   gem 'russian'
 end
