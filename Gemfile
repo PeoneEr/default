@@ -18,6 +18,7 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
   gem 'capistrano-rvm', github: "capistrano/rvm"
+  gem 'capistrano-deploytags', '~> 1.0.0', require: false, github: 'mydrive/capistrano-deploytags'
   gem 'hirb'
   gem 'thin'
 end

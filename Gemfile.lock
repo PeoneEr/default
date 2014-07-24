@@ -6,6 +6,13 @@ GIT
       capistrano (~> 3.0)
       sshkit (~> 1.2)
 
+GIT
+  remote: git://github.com/mydrive/capistrano-deploytags.git
+  revision: 4fa2026b00a9c4e4f5eaa9fd7a7018e820497314
+  specs:
+    capistrano-deploytags (1.0.0)
+      capistrano (>= 3.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -141,6 +148,7 @@ PLATFORMS
 DEPENDENCIES
   capistrano
   capistrano-bundler
+  capistrano-deploytags (~> 1.0.0)!
   capistrano-rails
   capistrano-rvm!
   coffee-rails (~> 3.2.1)
