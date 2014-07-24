@@ -1,9 +1,8 @@
-require 'capistrano/setup'
-require 'capistrano/deploy'
 require 'capistrano/bundler'
+require 'capistrano/deploy'
 require 'capistrano/rails'
 require 'capistrano/rvm'
-require 'capistrano/deploytags'
+require 'capistrano/setup'
 
 
 set :rvm_type, :user
