@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 group :default do
-  gem 'sqlite3'
+  gem 'pg'
   gem 'rails', '3.2.18'
   gem 'russian'
 end
@@ -16,6 +16,7 @@ end
 group :development do
   gem 'capistrano', '~> 3.1.0'
   gem 'capistrano-bundler', '~> 1.1.2'
+  gem 'capistrano-deploytags', require: false
   gem 'capistrano-rails', '~> 1.1.1'
   gem 'capistrano-rvm', github: "capistrano/rvm"
   gem 'hirb'
