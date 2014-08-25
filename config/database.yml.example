@@ -1,8 +1,5 @@
 development:
   adapter: postgresql
-  database: default1
-  username: postgres
-  password: 123456
   host: localhost
   pool: 5
   timeout: 5000
